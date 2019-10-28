@@ -91,9 +91,12 @@
             android:layout_height="wrap_content"
             style="?android:attr/progressBarStyleHorizontal"
             android:max="@{100}"
+            app:hideifZero="@{viewmodel.like}"
+            app:progressScaled="@{viewmodel.like}"
+
+
 
             />
-            <!--            app:progressScaled="@{viewmodel.like}"-->
 
         </LinearLayout>
 
